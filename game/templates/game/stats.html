@@ -855,19 +855,19 @@
               <div class="quick-stats" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
                 <div class="stat">
                   <div class="k"><span>Total</span><span class="pill mono">AI</span></div>
-                  <div class="v"><span class="accent">{{ ai_total }}</span></div>
+                  <div class="v"><div class="num">{{ ai_total }}</div><span class="accent">{{ ai_total }}</span></div>
                 </div>
                 <div class="stat">
                   <div class="k"><span>Win rate</span><span class="pill mono">%</span></div>
-                  <div class="v"><span class="accent">{{ win_percentage }}</span></div>
+                  <div class="v"><div class="num">{{ win_percentage }}</div><span class="accent">{{ win_percentage }}</span></div>
                 </div>
                 <div class="stat">
                   <div class="k"><span>Wins</span><span class="pill mono">W</span></div>
-                  <div class="v"><span class="accent">{{ user_ai_wins }}</span></div>
+                  <div class="v"><div class="num">{{ user_ai_wins }}</div><span class="accent">{{ user_ai_wins }}</span></div>
                 </div>
                 <div class="stat">
                   <div class="k"><span>Losses</span><span class="pill mono">L</span></div>
-                  <div class="v">{{ ai_wins }}</div>
+                  <div class="v"><div class="num">{{ ai_wins }}</div>{{ ai_wins }}</div>
                 </div>
               </div>
             </div>
